@@ -1,0 +1,9 @@
+# train and val data
+train: ../dataset-with-yolo-format/images/train
+val: ../dataset-with-yolo-format/images/val
+
+# number of classes
+nc: 2
+
+# class names
+names: ['With_Mask', 'Without_Mask']
